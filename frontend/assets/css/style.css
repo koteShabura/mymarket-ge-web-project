@@ -1,0 +1,154 @@
+:root {
+  --yellow: #facc15;        /* main accent */
+  --yellow-dark: #eab308;   /* hover / emphasis */
+
+  --white: #ffffff;
+  --gray-100: #f3f4f6;
+  --gray-300: #d1d5db;
+  --gray-500: #6b7280;
+  --gray-800: #1f2937;
+  --gray-1000: #1e2024;
+
+  --text-main: #111827;
+  --border: var(--gray-300);
+
+  --main-font: Arial;
+
+}
+
+body{
+  background-color: var(--white);
+  color: var(--text-main);
+  font-family: var(--main-font);
+}
+
+.navbar {
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  position:fixed;
+  top:0;
+  left:0;
+  width: 100%;
+}
+
+.nav-container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 16px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.logo img {
+  height: 40px;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; 
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--white);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover{
+  background-color: var(--gray-300);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  opacity: 0.5;
+}
+.icon{
+  border-radius: 50%;
+  padding: 5px;
+  align-items: center;
+  display: inline-flex;
+}
+.icon:hover{
+  background-color: var(--gray-300);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  opacity: 0.5;
+}
+
+
+.logo img{
+  margin-left: -20px;
+}
+
+.pop-up_1 {
+  margin-right: 300px; 
+}
+
+.pop-up_2 {
+  margin-right: 40px; 
+  padding-left: 20px;
+  padding-right: 24px;
+  background-color: rgb(255, 242, 166);
+}
+.pop-up_2:hover{
+  background-color: var(--yellow);
+}
+
+.pop-up_3 {
+  margin-right: 0px; 
+}
+
+.pop-up_4 {
+  margin-right: -20px; 
+}
+
+.pop-up_4{
+  border-radius: 50%;
+  padding: 8px;
+}
+
+/* Icons*/
+.icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.nav-scroll{
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  margin-top:100px;
+  top:0;
+  left:0;
+  width: 100%;
+  font-family: var(--main-font);
+}
+.nav-scroll ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 40px;
+  justify-content: center;
+}
+.item-T{
+  margin-left: 140px;
+}
+.item-Last{
+  margin-right: 30px;
+}
+/*---------navbar-end------------------------*/
+
+
+
+
+
+
+.test_div{
+  background-color: #facc15;
+  width: 300px;
+  height: 1200px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
