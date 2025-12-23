@@ -21,6 +21,7 @@ body{
   color: var(--text-main);
   font-family: var(--main-font);
 }
+/*---------navbar-start------------------------*/
 
 .navbar {
   background: var(--white);
@@ -122,6 +123,7 @@ button:hover{
   left:0;
   width: 100%;
   font-family: var(--main-font);
+  
 }
 .nav-scroll ul{
   display: flex;
@@ -129,6 +131,7 @@ button:hover{
   list-style: none;
   gap: 40px;
   justify-content: center;
+  margin-bottom: 24px;
 }
 .item-T{
   margin-left: 140px;
@@ -138,17 +141,47 @@ button:hover{
 }
 /*---------navbar-end------------------------*/
 
-
-
-
-
-
-.test_div{
-  background-color: #facc15;
-  width: 300px;
-  height: 1200px;
-  margin-top: 100px;
+/*---------search&filter-start------------------------*/
+.search_div{
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
+  gap: 30px;
 }
+
+.search_div button{
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: var(--main-font);
+}
+input[type="search"] {
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  width: 700px;
+  height: 70px;
+  border-color: #eab308;
+  border: 2px solid var(--yellow);
+  font-size: 16px;
+}
+
+.filter{
+  height: 70px;
+  padding: 0px 20px 0px 20px;
+  background-color: var(--gray-300);
+}
+.search{
+  height: 70px;
+  padding: 0px 50px 0px 50px;
+  background-color: var(--yellow);
+}
+.search:hover{
+  background-color: var(--yellow-dark);
+}
+
+
+/*---------search&filter-end------------------------*/
