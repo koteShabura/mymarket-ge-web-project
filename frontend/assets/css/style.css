@@ -124,6 +124,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+a:hover{
+  color: #ffcc00;
+}
 
 
 .item-T {
@@ -141,28 +144,36 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 input[type="search"] {
-  width: 680px;
-  height: 64px;
+  width: 774px;
+  height: 70px;
   padding: 0 14px;
-  border-radius: 12px;
+  border-radius: 16px;
   border: 2px solid var(--yellow);
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .filter {
-  height: 64px;
+  height: 70px;
   padding: 0 22px;
-  background-color: var(--gray-300);
+  background-color: rgba(161, 161, 161, 0.137);
+  border: 0px;
+  border-radius: 16px;
+  font-size:16px;
+  font-family: var(--main-font);
 }
 
 .search {
-  height: 64px;
+  height: 70px;
   padding: 0 46px;
+  border: 0px;
+  border-radius: 16px;
   background-color: var(--yellow);
+  font-size:16px;
+  font-family:#ffcc00;
 }
 
 .search:hover {
