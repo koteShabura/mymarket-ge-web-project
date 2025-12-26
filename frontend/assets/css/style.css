@@ -273,7 +273,51 @@ main {
 }
 
 /*------carousel-end-------*/
+/*------brand_container-start-------*/
+.brand_container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 30px;
+}
+.brand_container .logo{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--white);
+  border: 1px solid var(--gray-300);
+}
+.brand_container .logo img{   
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+/*------brand_container-end-------*/
 
+.brand_container_names{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-right: 0px;
+  font-size: small;
+  font-weight: 600;
+  font-family: var(--main-font);
+  color: var(--text-main);
+}
+.p1{
+  background-color:var(--white);
+  width: 100px;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+
+}
 
 
 
