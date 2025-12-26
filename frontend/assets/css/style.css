@@ -211,27 +211,76 @@ input[type="search"] {
   }
 }
 
-/*------main-------*/
-
+/*------main-started-------*/
 main {
   max-width: 1220px;
   margin: 0 auto;
   padding: 140px 20px 40px;
 }
 
-.carousel{
-  margin: 3em auto;
+/*------carousel-------*/
+.carousel {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 180px;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  margin-top: -110px;
+  scroll-behavior: smooth;
+}
+.card {
+  height: 100px;
+  width: 190px;
+  background: none;
   display: flex;
-  gap: 1em;
+  align-items: center;
+  justify-content: center;
 }
-.card{
-  flex: 0 0 20em;  
-  height: 12em;
-  padding: 1em;
-  background-color: var(--gray-100);
-  border-radius: .5em;
-  text-align: center;
-  align-content: center;
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 18px;
 }
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel::scroll-button(right){
+  content: '›';
+  background-color: var(--gray-500);
+  border-width: 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--white);
+  font-size: 24px;
+}
+.carousel::scroll-button(left){
+  content: '‹';
+    background-color: var(--gray-500);
+  border-width: 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--white);
+  font-size: 24px;
+}
+.carousel::scroll-button(right):disabled, .carousel::scroll-button(left):disabled {
+  background-color: var(--gray-300);
+  color: var(--gray-500);
+}
+
+/*------carousel-end-------*/
+
+
+
+
+
+
+
+
+
 
 /*------main-end-------*/
