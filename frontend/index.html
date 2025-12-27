@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/popup.css">
   <script src="assets/js/main.js" defer></script>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
@@ -367,5 +368,53 @@
 </main>
 
 
+<!-- popup at button (ყველა კატეგორია) -->
+<div class="popup-overlay" id="popupOverlay">
+  <div class="popup-content">
+    <button class="close-popup" id="closePopup">&times;</button>
+    <h2>ყველა კატეგორია</h2>
+    <p>აქ შეგიძლიათ დაამატოთ თქვენი კონტენტი</p>
+    <!-- Add your popup content here -->
+  </div>
+</div>
+<!-- popup at button (ყველა კატეგორია) END -->
+<div class="popup-overlay" id="filterPopup">
+  <div class="popup-content filter-popup">
+    <button class="close-popup" id="closeFilter">&times;</button>
+    <h2>დეტალური ფილტრები</h2>
+    
+    <div class="filter-section">
+      <label>ფასი</label>
+      <div class="price-range">
+        <input type="number" placeholder="მინ" class="price-input">
+        <span>-</span>
+        <input type="number" placeholder="მაქს" class="price-input">
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <label>ბრენდი</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox"> Samsung</label>
+        <label><input type="checkbox"> Apple</label>
+        <label><input type="checkbox"> Xiaomi</label>
+        <label><input type="checkbox"> LG</label>
+      </div>
+    </div>
+
+    <div class="filter-section">
+      <label>მდგომარეობა</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox"> ახალი</label>
+        <label><input type="checkbox"> გამოყენებული</label>
+      </div>
+    </div>
+
+    <div class="filter-buttons">
+      <button class="btn-reset">გასუფთავება</button>
+      <button class="btn-apply">გამოყენება</button>
+    </div>
+  </div>
+</div>
 </body>
 </html>
