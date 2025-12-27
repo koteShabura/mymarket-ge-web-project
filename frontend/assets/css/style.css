@@ -524,6 +524,45 @@ main {
 }
 
 
+/* -------carousel_1--end------*/
+/* -------container1---------*/
+.container1 {
+  display: flex;
+  gap: 18px;
+  margin-top: 30px;
+}
+
+/* parent must be relative */
+.image1 {
+  position: relative;
+}
+
+.container1 img {
+  width: 600px;
+  height: auto;
+  display: block;
+}
+
+/* button overlaps image */
+.container1 button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 14px 48px;
+  background-color: #333232;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 6px;
+  margin-bottom: 2px;
+  border-radius: 16px;
+  transition: background 0.2s;
+}
+.container1 button:hover {
+  background-color: var(--yellow-dark);
+  color: #333232;
+}
+/* -------container1--end-------*/
 
 
 
