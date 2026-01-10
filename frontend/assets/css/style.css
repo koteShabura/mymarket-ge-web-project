@@ -718,7 +718,7 @@ main {
 }
 .carousel_3::scroll-button(left){
   content: '‹';
-    background-color: var(--gray-500);
+  background-color: var(--gray-500);
   border-width: 0px;
   width: 40px;
   height: 40px;
@@ -733,9 +733,49 @@ main {
 
 /*---------carusel----end-------------------*//*---------carusel----end-------------------*//*---------carusel----end-------------------*/
 /*---------carusel----end-------------------*//*---------carusel----end-------------------*//*---------carusel----end-------------------*/
+.container2 {
+  width: 100%;
+  background-color: #ececec;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Stack rows vertically */
+  gap: 20px;
+  align-items: center;
+}
 
+.mini_container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: nowrap; 
+  margin-right: 30px;
+}
 
+.card1 {
+  width: 190px;
+  background: none;
+  border-radius: 18px;
+  flex-shrink: 0; 
+}
 
+.card1 img {
+  width: 100%;
+  height: 130px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.card1_header {
+  font-size: 14px;
+  padding: 0 10px;
+  margin: 8px 0;
+}
+
+.card1_price {
+  font-weight: 700;
+  padding: 0 10px;
+  margin: 8px 0;
+}
 
 
 /*------main-end-------*/

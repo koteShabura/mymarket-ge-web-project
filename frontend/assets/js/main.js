@@ -27,16 +27,6 @@ document.addEventListener('keydown', (e) => {
 });
 
 
-
-
-
-
-
-
-
-
-
-
 const filterBtn = document.querySelector('.filter');
 const filterPopup = document.getElementById('filterPopup');
 const closeFilter = document.getElementById('closeFilter');
