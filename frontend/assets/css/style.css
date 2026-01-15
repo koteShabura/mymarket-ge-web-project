@@ -777,5 +777,147 @@ main {
   margin: 8px 0;
 }
 
+/*---------container2---end----------------*/
+main {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 140px 20px 40px;
+}
 
-/*------main-end-------*/
+/*---------container3---start----------------*/
+.container3{
+  max-width: 1220px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+
+}
+
+.txt3{
+max-width: 1220px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 1030px;
+  font-weight: 700;
+}
+.item3 img{
+  max-height: 195px;
+}
+.item3{
+  height: auto;
+  width: auto;
+  
+}
+/*---------container3---end----------------*/
+/*---------container3_1---start----------------*/
+.container3_1{
+  max-width: 1220px;
+  margin: 0 auto;
+  display:flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 12px;
+  align-items: center;
+  color: #6b7280;
+}
+.container3_1 img{
+  width: 120px;
+  height: 100%;
+  border-radius: 6px;
+}
+
+/*---------container3_1---end----------------*/
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: #e4e8f1;
+}
+/*------------footer--start--------------*/
+footer.footer {
+    background: var(--white);
+    color: #000000;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap; /* responsive */
+    font-family: var(--main-font);
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.footer-col {
+    min-width: 180px;
+}
+
+.footer-col h4 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col ul li {
+    font-size: 13px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    opacity: 0.8;
+    line-height: 2;
+    
+
+}
+
+.footer-col ul li:hover {
+    opacity: 1;
+}
+/*------------footer--end--------------*/
+/*------------container4----start----------*/
+.container4{
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container4 p{
+  font-size: small;
+}
+
+/*------------container4----end----------*/
+/*------------container5----start----------*/
+
+.container5{
+  max-width: 1220px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+  border-width: 5px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 40px;
+}
+.container5 img{
+  width: 80px;
+}
+
+/*------------container5----end----------*/
+.lasttxt{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  max-width: 1220px;
+  margin: 0 auto;
+  font-size: 11px;
+  gap: 550px;
+}
